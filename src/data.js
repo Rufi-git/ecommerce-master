@@ -1,20 +1,39 @@
+import image1 from "../src/assets/image1.jpg";
+import image2 from "../src/assets/image2.jpg";
+import image3 from "../src/assets/image3.jpg";
+import image4 from "../src/assets/image4.jpg";
+import image5 from "../src/assets/image5.jpg";
+import image6 from "../src/assets/image6.jpg";
+import image7 from "../src/assets/image7.jpg";
+import image8 from "../src/assets/image8.jpg";
+import image9 from "../src/assets/image9.jpg";
+import image10 from "../src/assets/image10.jpg";
+import image11 from "../src/assets/image11.jpg";
+import image12 from "../src/assets/image12.jpg";
+import image13 from "../src/assets/image13.jpg";
+import image14 from "../src/assets/image14.jpg";
+import image15 from "../src/assets/image15.jpg";
+import image16 from "../src/assets/image16.jpg";
+import image17 from "../src/assets/image17.jpg";
+import image18 from "../src/assets/image18.jpg";
+
 export const links = [
     {
         name: "Home",
         path: "/",
         children: [
             {
-                image: "https://the7.io/elementor-shop/wp-content/uploads/sites/79/2020/10/q0319.jpg",
+                image: image1,
                 name: "Slideshow + banners",
                 path: "/",
             },
             {
-                image: "./src/assets/image2.jpg",
+                image: image2,
                 name: "Full width slideshow",
                 path: "/"
             },
             {
-                image: "../../../../assets/image3.jpg",
+                image: image3,
                 name: "Categories carousel",
                 path: "/"
             }
