@@ -9,6 +9,8 @@ import MenuItem from "./MenuItem"
 import { useSelector } from "react-redux"
 import { addToBasket } from "../../reducers/basketSlice"
 import { motion } from "framer-motion"
+import logo from "../src/assets/logo.png"
+
 const Navbar = () => {
     const basket = useSelector((state) => state);
     const [itemCount, setItemCount] = useState(0);
@@ -36,7 +38,7 @@ const Navbar = () => {
                     <i className="fa-solid fa-bars"></i>
                 </div>
                 <NavLink to="/" className="nav-logo">
-                    <img src="../../src/assets/logo.png" alt="" />
+                    <img src={logo} alt="" />
                 </NavLink>
                 <div className={`nav-menu ${(isNavShowing) ? "open_nav" : "hide_nav"}`}>
                     <div className="hamburger_text">

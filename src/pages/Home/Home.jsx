@@ -8,9 +8,11 @@ import { sliders } from "../../data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { motion } from "framer-motion";
-
 import SimpleSlider from "../../components/Slider/Products/ProductSlider";
 
+
+import image7 from "../src/assets/image7.jpg"
+import image8 from "../src/assets/image7.jpg"
 const Home = () => {
     const NextButton = ({ onClick }) => {
         return (
@@ -62,7 +64,7 @@ const Home = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1 }}
                         >
-                            <img src="../../../src/assets/image7.jpg" alt="" />
+                            <img src={image7} alt="" />
                             <div className="image_text">
                                 <h4>Exclusive interior items</h4>
                                 <p>Innovative forms & premium materials</p>
@@ -73,7 +75,7 @@ const Home = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1 }}
                         >
-                            <img src="../../../src/assets/image8.jpg" alt="" />
+                            <img src={image8} alt="" />
                             <div className="image_text">
                                 <h4>Up to 75% OFF</h4>
                                 <p>For home decor & accessories</p>
