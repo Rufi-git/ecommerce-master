@@ -97,12 +97,12 @@ export const links = [
             {
                 name: "Bestseller",
                 path: null,
-                image: "./assets/image4.jpg"
+                image: image4
             },
             {
                 name: "Items on sale",
                 path: null,
-                image: "./src/assets/image5.jpg"
+                image: image5
             }
         ]
     },
@@ -129,13 +129,13 @@ export const sliders = [
         buttonLink: null
     },
     {
-        image: "./src/assets/image9.jpg",
+        image: image9,
         title: "Meet our new minimalistic furniture collection",
         description: "Top quality, premium materials, timeless silhouettes.",
         buttonLink: null
     },
     {
-        image: "./assets/image10.jpg",
+        image: image10,
         title: "Meet our new minimalistic furniture collection",
         description: "Top quality, premium materials, timeless silhouettes.",
         buttonLink: null
@@ -221,63 +221,63 @@ export const categories = [
 export const products = [
     {
         id: 1,
-        image: "../../../../src/assets/image11.jpg",
+        image: image11,
         title: "Meet our new minimalistic furniture collection",
         description: "Maecenas sollicitudin - justo augue, lorem ipsum dolor at malesuada ligula malesuada molestie pellentesque nisl eu turpis.",
         price: 239,
     },
     {
         id: 2,
-        image: "../../../../src/assets/image12.jpg",
+        image: image12,
         title: "Meet our new minimalistic furniture collection",
         description: "Top quality, premium materials, timeless silhouettes.",
         price: 319,
     },
     {
         id: 3,
-        image: "../../../../src/assets/image13.jpg",
+        image: image13,
         title: "Meet our new minimalistic furniture collection",
         description: "Top quality, premium materials, timeless silhouettes.",
         price: 249,
     },
     {
         id: 4,
-        image: "../../../../src/assets/image14.jpg",
+        image: image14,
         title: "Meet our new minimalistic furniture collection",
         description: "Top quality, premium materials, timeless silhouettes.",
         price: 159,
     },
     {
         id: 5,
-        image: "../../../../src/assets/image15.jpg",
+        image: image15,
         title: "Meet our new minimalistic furniture collection",
         description: "Top quality, premium materials, timeless silhouettes.",
         price: 129,
     },
     {
         id: 6,
-        image: "../../../../src/assets/image16.jpg",
+        image: image16,
         title: "Meet our new minimalistic furniture collection",
         description: "Top quality, premium materials, timeless silhouettes.",
         price: 699,
     },
     {
         id: 7,
-        image: "../../../../src/assets/image17.jpg",
+        image: image17,
         title: "Meet our new minimalistic furniture collection",
         description: "Top quality, premium materials, timeless silhouettes.",
         price: 679,
     },
     {
         id: 8,
-        image: "../../../../src/assets/image18.jpg",
+        image: image18,
         title: "Meet our new minimalistic furniture collection",
         description: "Top quality, premium materials, timeless silhouettes.",
         price: 799,
     },
     {
         id: 9,
-        image: "../../../../src/assets/image14.jpg",
+        image: image14,
         title: "Meet our new minimalistic furniture collection",
         description: "Top quality, premium materials, timeless silhouettes.",
         price: 499,
