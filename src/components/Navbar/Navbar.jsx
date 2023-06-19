@@ -9,7 +9,7 @@ import MenuItem from "./MenuItem"
 import { useSelector } from "react-redux"
 import { addToBasket } from "../../reducers/basketSlice"
 import { motion } from "framer-motion"
-import logo from "../src/assets/logo.png"
+import logo from "../../../src/assets/logo.png"
 
 const Navbar = () => {
     const basket = useSelector((state) => state);
