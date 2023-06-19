@@ -123,19 +123,19 @@ export const links = [
 
 export const sliders = [
     {
-        image: "../../../../src/assets/image6.jpg",
+        image: image6,
         title: "Meet our new minimalistic furniture collection",
         description: "Top quality, premium materials, timeless silhouettes.",
         buttonLink: null
     },
     {
-        image: "../../../../src/assets/image9.jpg",
+        image: "./src/assets/image9.jpg",
         title: "Meet our new minimalistic furniture collection",
         description: "Top quality, premium materials, timeless silhouettes.",
         buttonLink: null
     },
     {
-        image: "../../../../src/assets/image10.jpg",
+        image: "./assets/image10.jpg",
         title: "Meet our new minimalistic furniture collection",
         description: "Top quality, premium materials, timeless silhouettes.",
         buttonLink: null
