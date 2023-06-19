@@ -10,7 +10,7 @@ import image9 from "../src/assets/image9.jpg";
 import image10 from "../src/assets/image10.jpg";
 import image11 from "../src/assets/image11.jpg";
 import image12 from "../src/assets/image12.jpg";
-import image13 from "../src/assets/image13.jpg";
+import image13 from "../src/assets/image18.jpg";
 import image14 from "../src/assets/image14.jpg";
 import image15 from "../src/assets/image15.jpg";
 import image16 from "../src/assets/image16.jpg";

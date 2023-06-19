@@ -36,7 +36,7 @@ const Products = () => {
               <i className="fa-solid fa-cart-shopping basket-icon"></i>
             </div>
             <h5 className="product_title">{product.title}</h5>
-            <p className="product_price">{product.price}</p>
+            <p className="product_price">${product.price}</p>
           </Link>
         </motion.div>
       ))}
