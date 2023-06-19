@@ -46,7 +46,7 @@ const Home = () => {
                         infiniteLoop={true}
                         showThumbs={false}
                         autoPlay={true}
-                        swipeable={true}>
+                        swipeable={false}>
                         {sliders.map(({ image, title, description, buttonLink }, index) => {
                             return <motion.div
                             initial={{ opacity: 0, x: -200 }}
