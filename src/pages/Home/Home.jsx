@@ -12,7 +12,7 @@ import SimpleSlider from "../../components/Slider/Products/ProductSlider";
 
 
 import image7 from "../src/assets/image7.jpg"
-import image8 from "../src/assets/image7.jpg"
+import image8 from "../src/assets/image8.jpg"
 const Home = () => {
     const NextButton = ({ onClick }) => {
         return (
