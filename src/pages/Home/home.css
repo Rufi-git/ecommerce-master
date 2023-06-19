@@ -1,0 +1,270 @@
+.Home .home_images {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 1px;
+}
+.Home .home_images .carousel-root {
+  flex: 2 !important;
+  /* Custom styles for carousel navigation buttons */
+}
+.Home .home_images .carousel-root .carousel .control-arrow {
+  color: white;
+  font-size: 40px;
+  height: auto;
+}
+.Home .home_images .carousel-root .carousel .control-arrow:hover {
+  background: none;
+}
+.Home .home_images .carousel-root .carousel .prev-arrow {
+  left: 10px;
+  /* Adjust the position of the previous button */
+}
+.Home .home_images .carousel-root .carousel .next-arrow {
+  right: 10px;
+  /* Adjust the position of the next button */
+}
+.Home .home_images .home_slider {
+  position: relative;
+  flex: 2;
+}
+.Home .home_images .home_slider::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.Home .home_images .home_slider img {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.Home .home_images .home_slider .slider-text {
+  position: absolute;
+  top: 0;
+  color: white;
+  padding: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: start;
+  height: 100%;
+  width: 80%;
+  gap: 40px;
+  z-index: 10;
+}
+.Home .home_images .home_slider .slider-text h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.Home .home_images .home_slider .slider-text h4 {
+  font-size: 25px;
+}
+.Home .home_images .home_slider .slider-text a {
+  padding: 13px 20px;
+  background-color: #67AD5C;
+  color: white;
+  font-weight: 600;
+  border-radius: 3px;
+}
+.Home .home_images .home_item {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  flex: 1;
+  height: 100%;
+}
+.Home .home_images .home_item .home_item_list {
+  flex: 1;
+  display: flex;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+.Home .home_images .home_item .home_item_list::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.Home .home_images .home_item .home_item_list .image_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  padding: 8%;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  gap: 13px;
+  z-index: 10;
+}
+.Home .home_images .home_item .home_item_list .image_text h4 {
+  font-weight: 600;
+  font-size: 25px;
+}
+.Home .home_images .home_item .home_item_list .image_text p {
+  font-size: 20px;
+}
+.Home .home_images .home_item .home_item_list:hover img {
+  transition: all 0.4s;
+  scale: 1.2;
+  background-position: 50%;
+  background-size: 50%;
+}
+.Home .home_images .home_item .home_item_list img {
+  transition: all 0.4s;
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.Home .slider_icon {
+  border-bottom: 1px solid #dfdfdf;
+}
+.Home .slider_icon .slider_item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.Home .slider_icon .slider_item .slider_item_list {
+  padding: 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+.Home .slider_icon .slider_item .slider_item_list .item_text {
+  margin: 0;
+  margin-left: 18px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.Home .slider_icon .slider_item .slider_item_list i {
+  color: #BDBDBD;
+  font-size: 25px;
+}
+.Home .new_products {
+  margin-top: 60px;
+}
+.Home .new_products .new_title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.Home .new_products .new_title h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.Home .new_products .products_slide {
+  margin: auto;
+  width: 100%;
+}
+.Home .new_products .products_slide .swiper-slide {
+  flex: 1;
+  width: auto !important;
+}
+
+@media screen and (max-width: 1350px) {
+  .Home .home_images {
+    flex-direction: column;
+  }
+  .Home .home_images .home_slider .slider-text {
+    width: 100%;
+  }
+  .Home .home_images .home_slider .slider-text h1 {
+    font-size: 40px;
+  }
+  .Home .home_images .home_slider .slider-text h4 {
+    font-size: 20px;
+  }
+  .Home .home_images .home_item {
+    width: 100%;
+  }
+  .Home .home_images .home_item .home_item_list {
+    flex: 1;
+    display: flex;
+    height: 100%;
+  }
+  .Home .home_images .home_item .home_item_list img {
+    height: 300px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .Home .home_images .home_item .home_item_list .image_text h4 {
+    font-size: 40px;
+  }
+  .Home .home_images .home_item .home_item_list .image_text p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .Home .home_images {
+    flex-direction: column;
+  }
+  .Home .home_images .home_slider .slider-text {
+    width: 100%;
+  }
+  .Home .home_images .home_slider .slider-text h1 {
+    font-size: 30px;
+  }
+  .Home .home_images .home_slider .slider-text h4 {
+    font-size: 20px;
+  }
+  .Home .home_images .home_slider .slider-text a {
+    padding: 10px 16px;
+    background-color: #67AD5C;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+  }
+  .Home .home_images .home_item {
+    width: 100%;
+  }
+  .Home .home_images .home_item .home_item_list {
+    flex: 1;
+    display: flex;
+    height: 100%;
+  }
+  .Home .home_images .home_item .home_item_list img {
+    height: 300px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .Home .home_images .home_item .home_item_list .image_text h4 {
+    font-size: 30px;
+  }
+  .Home .home_images .home_item .home_item_list .image_text p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 515px) {
+  .Home .slider_icon .slider_item {
+    justify-content: flex-start;
+    align-items: flex-start !important;
+    padding: 0;
+  }
+  .Home .slider_icon .slider_item .slider_item_list {
+    padding: 35px 0px;
+  }
+  .Home .slider_icon .slider_item .slider_item_list .item_text {
+    font-size: 15px;
+  }
+  .Home .slider_icon .slider_item .slider_item_list i {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=home.css.map */

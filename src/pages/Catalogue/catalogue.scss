@@ -1,0 +1,114 @@
+.Catalogue {
+  width: 100%;
+}
+
+.catalogue_wrapper {
+  padding: 0px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.catalogue_left {
+  flex: 1;
+}
+
+.catalogue_dropdown {
+  .dropdown_item {
+    .catalogue_dropdown_title {
+      border-bottom: 1px solid #d4d2d2;
+
+      .nav_link {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+        i {
+          color: #d4d2d2;
+        }
+      }
+
+      margin-top: 10px;
+      .dropdown_text {
+        display: flex;
+        align-items: center;
+        .item_count {
+          color: #9e9e9e;
+          background: #f4f4f4;
+          border-radius: 50%;
+          text-align: center;
+          font-size: 10px;
+          padding: 1px 5px;
+          margin-left: 7px;
+        }
+      }
+    }
+
+    .catalogue_dropdown_menu {
+      .submenu_list {
+        margin-left: 15px;
+        .item_name {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          color: black;
+          i {
+            color: #d4d2d2;
+          }
+          .dropdown_text {
+            display: flex;
+            align-items: center;
+            .item_count {
+              color: #9e9e9e;
+              background: #f4f4f4;
+              border-radius: 50%;
+              text-align: center;
+              font-size: 10px;
+              padding: 1px 5px;
+              margin-left: 7px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.catalogue_right {
+  flex: 3;
+
+  .products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    .product_items {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: flex-start; // Align items to the start
+      gap: 20px; // Add gap between product items
+    }
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .catalogue_wrapper {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    .catalogue_left{
+      width: 100%;
+    }
+    .catalogue_right{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,94 @@
+.container {
+  margin-top: 20px;
+}
+.container .product_slider_item img {
+  width: 100%;
+}
+.container .product_details .details_item .product_code {
+  font-size: 13px;
+  color: #a1a1a1;
+}
+.container .product_details .details_item .stars {
+  margin-top: 15px;
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  gap: 6px;
+}
+.container .product_details .details_item .stars .star_collection i {
+  color: #FFC107;
+}
+.container .product_details .details_item .stars .star_review {
+  font-size: 12px;
+  color: #a1a1a1;
+}
+.container .product_details .details_item h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container .product_details .details_item .item_price {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.container .product_details .details_item .item_title {
+  margin-top: 15px;
+  color: #868686;
+  font-size: 15px;
+  max-width: 600px;
+}
+.container .product_details .details_item .item_colors {
+  margin-top: 15px;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+}
+.container .product_details .details_item .item_colors .item_color_text {
+  color: #a1a1a1;
+}
+.container .product_details .details_item .item_colors .prod_colors {
+  margin: 0;
+  display: flex;
+  gap: 10px;
+}
+.container .product_details .details_item .item_colors .prod_colors .prod_colors_list {
+  cursor: pointer;
+  padding: 0px 10px;
+  border: 1px solid #b6b5b5;
+}
+.container .product_details .details_item .addToCart {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.container .product_details .details_item .addToCart .counter {
+  padding: 0px 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #a1a1a1;
+}
+.container .product_details .details_item .addToCart .counter button {
+  color: #a1a1a1;
+  font-size: 25px;
+  background: none;
+  border: 0;
+}
+.container .product_details .details_item .addToCart .counter input {
+  outline: none;
+  border: none;
+  text-align: center;
+  width: 20px;
+}
+.container .product_details .details_item .addToCart .addToBasket {
+  border: none;
+  background-color: #67AD5C;
+  color: white;
+  height: 100%;
+  border-radius: 2px;
+  padding: 8px 60px;
+  font-size: 14px;
+  font-weight: bold;
+}/*# sourceMappingURL=productdetail.css.map */

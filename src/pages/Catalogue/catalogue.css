@@ -1,0 +1,102 @@
+.Catalogue {
+  width: 100%;
+}
+
+.catalogue_wrapper {
+  padding: 0px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.catalogue_left {
+  flex: 1;
+}
+
+.catalogue_dropdown .dropdown_item .catalogue_dropdown_title {
+  border-bottom: 1px solid #d4d2d2;
+  margin-top: 10px;
+}
+.catalogue_dropdown .dropdown_item .catalogue_dropdown_title .nav_link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+.catalogue_dropdown .dropdown_item .catalogue_dropdown_title .nav_link i {
+  color: #d4d2d2;
+}
+.catalogue_dropdown .dropdown_item .catalogue_dropdown_title .dropdown_text {
+  display: flex;
+  align-items: center;
+}
+.catalogue_dropdown .dropdown_item .catalogue_dropdown_title .dropdown_text .item_count {
+  color: #9e9e9e;
+  background: #f4f4f4;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 10px;
+  padding: 1px 5px;
+  margin-left: 7px;
+}
+.catalogue_dropdown .dropdown_item .catalogue_dropdown_menu .submenu_list {
+  margin-left: 15px;
+}
+.catalogue_dropdown .dropdown_item .catalogue_dropdown_menu .submenu_list .item_name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+}
+.catalogue_dropdown .dropdown_item .catalogue_dropdown_menu .submenu_list .item_name i {
+  color: #d4d2d2;
+}
+.catalogue_dropdown .dropdown_item .catalogue_dropdown_menu .submenu_list .item_name .dropdown_text {
+  display: flex;
+  align-items: center;
+}
+.catalogue_dropdown .dropdown_item .catalogue_dropdown_menu .submenu_list .item_name .dropdown_text .item_count {
+  color: #9e9e9e;
+  background: #f4f4f4;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 10px;
+  padding: 1px 5px;
+  margin-left: 7px;
+}
+
+.catalogue_right {
+  flex: 3;
+}
+.catalogue_right .products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.catalogue_right .products .product_items {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .catalogue_wrapper {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .catalogue_wrapper .catalogue_left {
+    width: 100%;
+  }
+  .catalogue_wrapper .catalogue_right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=catalogue.css.map */

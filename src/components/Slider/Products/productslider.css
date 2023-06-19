@@ -1,0 +1,53 @@
+.swiper_item {
+  display: flex;
+}
+.swiper_item img {
+  position: relative;
+  height: 320px;
+  width: 230px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.swiper_item .custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-100%);
+}
+.swiper_item .custom-next-arrow {
+  right: 0px;
+}
+.swiper_item .custom-prev-arrow,
+.swiper_item .custom-next-arrow {
+  font-size: 24px;
+  color: #000;
+  background-color: white;
+  padding: 8px;
+  cursor: pointer;
+  z-index: 10;
+}
+.swiper_item .swiper-item-list .swiper_image {
+  position: relative;
+}
+.swiper_item .swiper-item-list .swiper_image i {
+  color: black;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+.swiper_item .swiper-item-list h4 {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  color: black;
+}
+.swiper_item .swiper-item-list p {
+  color: black;
+  font-size: 13px;
+}
+
+/* productslider.css *//*# sourceMappingURL=productslider.css.map */
