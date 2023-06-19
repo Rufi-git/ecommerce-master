@@ -5,8 +5,8 @@ import './index.css'
 import { configureStore } from '@reduxjs/toolkit';
 import basketSlice from './reducers/basketSlice';
 import { Provider } from 'react-redux';
-import { transitions, positions, Provider as AlertProvider, types } from 'react-alert';
-import AlertTemplate from 'react-alert-template-basic';
+// import { transitions, positions, Provider as AlertProvider, types } from 'react-alert';
+// import AlertTemplate from 'react-alert-template-basic';
 
 
 const store = configureStore({
