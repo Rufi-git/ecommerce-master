@@ -5,10 +5,10 @@ import Layout from "../../components/Layout/Layout";
 import { useState } from "react";
 import { useDispatch } from 'react-redux';
 import { addToBasket } from '../../reducers/basketSlice';
-// import { useAlert } from 'react-alert';
+import { useAlert } from 'react-alert';
 
 const ProductDetail = () => {
-    // const alert = useAlert();
+    const alert = useAlert();
 
     const dispatch = useDispatch();
 
@@ -17,8 +17,8 @@ const ProductDetail = () => {
             dispatch(addToBasket(product))
             setItemCount(1);
         }
-        // itemCount==1 && alert.show(itemCount+'  Item added to basket');
-        // itemCount>1 && alert.show(itemCount+'  Items added to basket');
+        itemCount==1 && alert.show(itemCount+'  Item added to basket');
+        itemCount>1 && alert.show(itemCount+'  Items added to basket');
     };
 
 

@@ -3,11 +3,11 @@ import { useDispatch, useSelector } from 'react-redux';
 import './basket.css';
 import { motion, useAnimation, useMotionValue, useTransform } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-// import { useAlert } from 'react-alert';
+import { useAlert } from 'react-alert';
 import Layout from '../../components/Layout/Layout';
 import { deleteFromBasket } from '../../reducers/basketSlice';
 const Basket = () => {
-    // const alert = useAlert();
+    const alert = useAlert();
     const basket = useSelector((state) => state);
 
     const totalPrice = basket.reduce((total, product) => total + product.price, 0);
@@ -17,7 +17,7 @@ const Basket = () => {
             dispatch(deleteFromBasket(product.id));
         });
 
-        // alert.show("Your order has been completed successfully")
+        alert.show("Your order has been completed successfully")
     };
     const dispatch = useDispatch();
     const handleRemove = (id) => {
