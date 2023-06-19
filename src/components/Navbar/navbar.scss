@@ -449,14 +449,3 @@ $text-color: #67AD5C;
         }
     }
 }
-
-
-@media screen and (max-width:490px) {
-    .Navbar {
-        .navbar-warpper {
-            .nav-basket {
-                display: none;
-            }
-        }
-    }
-}
