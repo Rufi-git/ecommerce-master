@@ -343,9 +343,4 @@
   .Navbar .navbar-warpper .nav-basket .basket-price {
     font-size: 13px;
   }
-}
-@media screen and (max-width: 490px) {
-  .Navbar .navbar-warpper .nav-basket {
-    display: none;
-  }
 }/*# sourceMappingURL=navbar.css.map */
