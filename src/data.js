@@ -78,12 +78,12 @@ export const links = [
             {
                 name: "Bestseller",
                 path: null,
-                image: "../../../../src/assets/image4.jpg"
+                image: "./assets/image4.jpg"
             },
             {
                 name: "Items on sale",
                 path: null,
-                image: "../../../../src/assets/image5.jpg"
+                image: "./src/assets/image5.jpg"
             }
         ]
     },
