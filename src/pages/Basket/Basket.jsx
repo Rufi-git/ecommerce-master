@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-// import './Basket.css';
+import './basket.css';
 import { motion, useAnimation, useMotionValue, useTransform } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 // import { useAlert } from 'react-alert';
