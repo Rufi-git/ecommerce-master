@@ -4,17 +4,17 @@ export const links = [
         path: "/",
         children: [
             {
-                image: "../../../../src/assets/image1.jpg",
+                image: "./assets/image1.jpg",
                 name: "Slideshow + banners",
                 path: "/",
             },
             {
-                image: "../../../../src/assets/image2.jpg",
+                image: "./src/assets/image2.jpg",
                 name: "Full width slideshow",
                 path: "/"
             },
             {
-                image: "../../../../src/assets/image3.jpg",
+                image: "../../../../assets/image3.jpg",
                 name: "Categories carousel",
                 path: "/"
             }
